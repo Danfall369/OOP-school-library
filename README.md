@@ -7,13 +7,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Deployment](#deployment)
 - [👥 Author](#author)
 - [🔭 Features](#features)
 - [🤝 Contributing](#contributing)
@@ -54,15 +52,6 @@ Welcome to the OOP School Library App! This application serves as a tool for lib
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 IRB Test Case preview <a name="live-demo"></a>
-
-
-- [this will be added in the future]
- 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -99,18 +88,8 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-`Ruby person.rb`
+`Ruby main.rb`
 ```
-
-### Deployment
-
-You can deploy this project following these steps:
-
-```sh
-This project does not need a deploy.
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
