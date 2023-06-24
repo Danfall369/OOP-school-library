@@ -88,7 +88,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-`Ruby person.rb`
+`Ruby main.rb`
 ```
 
 <!-- AUTHOR -->
