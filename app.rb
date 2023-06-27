@@ -26,11 +26,12 @@ class App
       puts 'Empty list'
     else
       @people.each do |person|
-        if person.is_a?(Student)
+        case person
+        when Student
           puts "[Student] Person created: ID: #{person.id}, Name: #{person.name}, Age: #{person.age}, " \
                "Permission: #{person.parent_permission}"
 
-        elsif person.is_a?(Teacher)
+        when Teacher
           puts "[Teacher] Person created: ID: #{person.id}, Name: #{person.name}, Age: #{person.age}, " \
                "specialization: #{person.specialization}"
 
@@ -40,9 +41,10 @@ class App
   end
 
   def create_person(name, age, type, extra_info)
-    if type == 'student'
+    case type
+    when 'student'
       person = Student.new(name, age, parent_permission: extra_info[:parent_permission])
-    elsif type == 'teacher'
+    when 'teacher'
       person = Teacher.new(name, age, extra_info[:specialization])
     else
       puts 'Invalid person type!'
